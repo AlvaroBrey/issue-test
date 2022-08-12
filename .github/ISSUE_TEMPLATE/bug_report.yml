@@ -94,10 +94,10 @@ body:
         attributes:
             label: Custom Signaling server configured
             description: |
-                See talk admin settings: `/index.php/index.php/settings/admin/talk#signaling_server`
+                See Talk admin settings: `/index.php/index.php/settings/admin/talk#signaling_server`
             options:
                 - "I don't know"
-                - "Yes (add version in 'additional information'"
+                - "Yes (specify version in Additional Information)"
                 - "No"
         validations:
             required: true
@@ -106,7 +106,7 @@ body:
         attributes:
             label: Custom TURN server configured
             description: |
-                See talk admin settings: `/index.php/settings/admin/talk#turn_server`
+                See Talk admin settings: `/index.php/settings/admin/talk#turn_server`
             options:
                 - "I don't know"
                 - "Yes (add version in 'additional information'"
@@ -118,7 +118,7 @@ body:
         attributes:
             label: Custom STUN server configured
             description: |
-                See talk admin settings: `/index.php/settings/admin/talk#stun_server`
+                See Talk admin settings: `/index.php/settings/admin/talk#stun_server`
             options:
                 - "I don't know"
                 - "Yes (add version in 'additional information'"
