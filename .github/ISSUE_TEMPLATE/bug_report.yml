@@ -6,9 +6,9 @@ body:
         attributes:
             value: |
                 Thank you for contributing! Before reporting, please ensure the following:
-                    * You've [searched for similar issues](https://github.com/nextcloud/talk-android/issues) and didn't find a duplicate.
-                    * You've written a clear and descriptive title for this issue, something like "Crash when trying to send a file on group chat"
-                    * You agree to Nextcloud's [Code of Conduct](https://nextcloud.com/contribute/code-of-conduct/)
+                     * You've [searched for similar issues](https://github.com/nextcloud/talk-android/issues) and didn't find a duplicate.
+                     * You've written a clear and descriptive title for this issue, something like "Crash when trying to send a file on group chat"
+                     * You agree to Nextcloud's [Code of Conduct](https://nextcloud.com/contribute/code-of-conduct/)
     -   type: textarea
         id: repro-steps
         attributes:
