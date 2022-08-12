@@ -109,7 +109,7 @@ body:
                 See Talk admin settings: `/index.php/settings/admin/talk#turn_server`
             options:
                 - "I don't know"
-                - "Yes (add version in 'additional information'"
+                - "Yes"
                 - "No"
         validations:
             required: true
@@ -121,7 +121,7 @@ body:
                 See Talk admin settings: `/index.php/settings/admin/talk#stun_server`
             options:
                 - "I don't know"
-                - "Yes (add version in 'additional information'"
+                - "Yes"
                 - "No"
         validations:
             required: true
