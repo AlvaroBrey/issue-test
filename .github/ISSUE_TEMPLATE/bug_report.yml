@@ -64,13 +64,16 @@ body:
             required: true
     -   type: markdown
         attributes:
-            value: "## Server information"
+            value: | 
+                ## Server information
+                
+                If you're unsure about any of these fields, just leave them empty.
     -   type: input
         id: server-version
         attributes:
             label: Nextcloud server version
             description: |
-                See admin overview page: `/index.php/settings/admin/overview`
+                See `About` in the profile picture menu.
             placeholder: "23.0.0"
     -   type: input
         id: spreed-version
