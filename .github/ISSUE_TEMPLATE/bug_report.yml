@@ -114,7 +114,7 @@ body:
         validations:
             required: true
     -   type: dropdown
-        id: turn-server
+        id: stun-server
         attributes:
             label: Custom STUN server configured
             description: |
